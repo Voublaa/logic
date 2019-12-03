@@ -11,10 +11,12 @@
 		  font-family: "Montserrat-Regular";
 		color:#a0a2af;
 		}
+		
 	.full {
 		width:100%;
 		text-align:center;
 		animation:full 0.3s ease-in ;
+		padding-bottom:100px;
 		}
 		
 		@keyframes full {
@@ -35,6 +37,7 @@
 		margin:0 auto;
 		background-color:teal;
 		color:white;
+		font-weight:800;
 		}
 	
 	.layout {
@@ -58,6 +61,8 @@
 		position:absolute;
 		left:65px;
 		transform:translateY(17px);
+		font-size:15px;
+		font-weight:600;
 		}
 		
 	.gap {
@@ -235,6 +240,23 @@
 	</div>
 	<div class="gap"></div>
 	<!--game closed-->
+		
+		<!---game-->
+	<div class="layout" onclick="parent.location='https://voublaa.github.io/logic/moregames' ">
+		<img src="moregames.png" style="background-color:teal;">
+			<div class="text">Download More Games</div>
+	</div>
+	<div class="gap"></div>
+	<!--game closed-->
+		
+		<!---game-->
+	<div class="layout" onclick="parent.location='https://voublaa.github.io/logic/feedback' ">
+		<img src="feedback.png" style="background-color:teal;">
+			<div class="text">Write A Feedback</div>
+	</div>
+	<div class="gap"></div>
+	<!--game closed-->
+		
 </div>
 </body>
 </html>
